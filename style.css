@@ -1,0 +1,14 @@
+
+    body {
+        background-image: url("https://img.freepik.com/vetores-premium/fundo-de-mapa-da-cidade-em-tom-azul_99087-101.jpg?w=1480");
+    }
+    #tittle{
+        text-align: center;
+        color: black;
+    }
+    .rounded-pill{
+        background-color: gray;
+    }
+    p{
+        color: gray
+    }
