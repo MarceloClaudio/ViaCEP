@@ -10,9 +10,48 @@
   "start_url": "/pwaapiviacep",
   "theme_color": "#ffffff",
   "categories": [],
-  "screenshots": [],
-  "icons": [],
-  "shortcuts": [],
+  "screenshots": [{
+    "screenshots": [
+      {
+        "src":"The src to your screenshot",
+        "sizes":"The size of your screenshot, such as 2880x1800",
+        "type":"The type of your image, such as image/png"
+      }
+    ]
+  }],
+  "icons": [{
+    "icons": [
+      {
+        "src": "icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icon-256x256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "icon-384x384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }],
+  "shortcuts": [{
+    "shortcuts": [
+      {
+        "name":"The name you would like to be displayed for your shortcut",
+        "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
+        "description":"A description of the functionality of this shortcut"
+      }
+    ]
+  }],
   "lang": "ku",
   "display_override": [
     "browser"
